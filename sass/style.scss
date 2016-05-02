@@ -1,3 +1,4 @@
+// compileCompressed: ../css/style.min.css
 /*Mixins*/
 @import 'modules/mixins';
 
@@ -9,9 +10,6 @@
 
 /*Back to top btn styles*/
 @import 'partials/top-btn';
-
-/*Header styles*/
-@import 'partials/header';
 
 /*Nav styles*/
 @import 'partials/nav';

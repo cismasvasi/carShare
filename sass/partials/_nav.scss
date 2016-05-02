@@ -1,3 +1,4 @@
+// main: ../style.scss
 .navbar-default{
     background: $background;
     border: none;
@@ -22,11 +23,11 @@
             color: #777;
         }
     }
-    
+
 }
 #menu-btn{
     box-shadow: 1px 1px 3px #A0A0A0;
-    
+
     &:hover a{
         color: $secondary_pink;
     }
@@ -60,9 +61,10 @@
 .navbar-default .navbar-toggle{
     border: none;
     background: $main_purple;
-    &:hover, visited{
-       background: $main_purple;
-    }
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{
+    background: $main_purple;
 }
 .navbar-default .navbar-toggle .icon-bar{
     background-color: #fff;

@@ -1,3 +1,4 @@
+// main: ../style.scss
 #home{
   content: "";
   position: fixed;
@@ -11,7 +12,7 @@
   color: $secondary_pink;
   vertical-align: middle;
   padding: 5px;
-  font-size: 1.5em;    
+  font-size: 1.5em;
   @include phone{
     bottom: 1%;
     right: 2%;
