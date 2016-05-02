@@ -1,0 +1,52 @@
+#home{
+  content: "";
+  position: fixed;
+  display: block;
+  right: 3%;
+  bottom: 3%;
+  border-radius: 10px;
+  z-index: 10;
+  text-align: center;
+  text-decoration: none;
+  color: $secondary_pink;
+  vertical-align: middle;
+  padding: 5px;
+  @include phone{
+    bottom: 1%;
+    right: 2%;
+    z-index: 10;
+  }
+}
+
+
+
+/*style for back to top btn for jquery */
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  visibility: hidden;
+  opacity: 0;
+  @include transition(opacity .3s 0s, visibility 0s .3s);
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  @include transition(opacity .3s 0s, visibility 0s 0s);
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  @include opacity(1);
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+   @include opacity(.8);
+}
+.no-touch .cd-top:hover {
+  background-color: #e86256;
+   @include opacity(1);
+}

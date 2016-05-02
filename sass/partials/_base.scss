@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Paola';
+    src: url(../fonts/paola.ttf);
+}
+
+body{
+    color: #222222;
+    font-family: 'Lato', sans-serif;
+}
+h1, h2{
+    font-family: 'Paola';
+    color: $main_purple;
+}
+.pink{
+    color: $secondary_pink;
+}
+
+a{
+    cursor: pointer;
+}

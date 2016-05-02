@@ -1,0 +1,26 @@
+#sign_up{
+    margin: 100px 0;
+    text-align: center;
+    padding: 50px 0;
+    @include tablet{
+        margin-bottom: 100px;
+    }
+    @include phone{
+        margin: 50px 0;
+    }
+}
+.title_sign_up{
+    color: $main_purple;
+    
+}
+.form-control{
+    border: 1px solid $main_purple;
+    @include tablet{
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+.form-control:focus{
+    border-color: $secondary_pink;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba($secondary_pink, .7);
+}

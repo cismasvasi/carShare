@@ -1,0 +1,45 @@
+#more{
+    text-align: center;
+    padding-top: 20px;
+    a{
+        color: $secondary_pink;
+    }
+    
+}
+#about{
+    text-align: center;
+    padding: 50px 0 100px 0;
+    @include phone{
+        padding-bottom: 50px;
+    }
+}
+.features{
+    margin-bottom: 30px;
+    @include tablet{
+        margin: 0 auto;
+        width: 80%;
+        float: none;
+    }
+}
+.logo{
+    position: relative;
+    bottom: 5px;
+}
+.section-title{
+    margin-bottom: 50px;
+    
+}
+.feature-title{
+   color: $main_purple;
+}
+.icon{
+    color: #fff;
+    font-size: 2rem;
+    background: $main_purple;
+    padding: 30px;
+    border-radius: 50%;
+    box-shadow: $shadow;
+}
+.euro-icon{
+    padding: 30px 35px;
+}

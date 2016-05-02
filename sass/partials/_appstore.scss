@@ -1,0 +1,30 @@
+#appstore{
+    background: $main_purple;
+    margin-bottom: -50px;
+}
+.phone{
+    position: relative;
+    bottom: 30px;
+    margin-bottom: -30px;
+    @include tablet{
+        margin-top: 60px;
+    }
+}
+.download{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 60px;
+    @include tablet{
+        margin: 60px auto 20px auto;
+        width: 80%;
+    }
+    strong{
+        color: $secondary_pink
+    }
+}
+.app-btn{
+    @include phone{
+        margin-bottom: 70px;
+    }
+}

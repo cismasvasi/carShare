@@ -1,0 +1,31 @@
+@mixin phone{
+	@media screen and (max-width: 480px){
+		@content;
+	}
+}
+
+@mixin tablet{
+	@media screen and (min-width:481px) and (max-width:767px){
+		@content;
+	}
+}
+
+@mixin desktop{
+	@media screen and (min-width:768) {
+		@content;
+	}
+}
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}

@@ -1,0 +1,59 @@
+.navbar-default{
+    background: #fff;
+    border: none;
+}
+.navbar{
+    margin-bottom: 0;
+}
+#main-nav{
+    position: relative;
+}
+.btn-sign-up.btn-sign-up{
+    color: #fff;
+    background: $secondary_pink;
+    border: #fff;
+    border: 2px solid $secondary_pink;
+    
+    a:link, a:visited{
+        color: #fff;
+        text-decoration: none;
+        padding-left: 3px;
+        @include tablet{
+            color: #777;
+        }
+    }
+    
+}
+#menu-btn{
+    @include tablet{
+        background: none;
+        border: none;
+    }
+    @include phone{
+        background: none;
+        border: none;
+        a:link, a:visited{
+            color: #777;
+        }
+    }
+}
+.btn-sign-up:hover{
+    background: #fff;
+    color: $secondary_pink;
+    border: 2px solid $secondary_pink;
+    a{
+        color: $secondary_pink;
+    }
+}
+#brand-logo{
+    font-family: 'Paola';
+    color: $main_purple;
+}
+
+.navbar-default .navbar-toggle{
+    border: none;
+    background: $main_purple;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #fff;
+}
