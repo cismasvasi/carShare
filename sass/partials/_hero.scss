@@ -17,8 +17,14 @@
     }
     h3{
         text-transform: uppercase;
-        text-shadow: 0px 2px #fff;
+        text-shadow: 0px 0px 2px #fff;
         margin-top: 0;
         margin-bottom: 30px;
+        @include phone{
+            font-size: 1.3em;
+        }
     }
+}
+#hero-btn{
+    box-shadow: 0 0 5px #fff;
 }
