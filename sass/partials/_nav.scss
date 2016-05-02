@@ -60,6 +60,9 @@
 .navbar-default .navbar-toggle{
     border: none;
     background: $main_purple;
+    &:hover, visited{
+       background: $main_purple;
+    }
 }
 .navbar-default .navbar-toggle .icon-bar{
     background-color: #fff;

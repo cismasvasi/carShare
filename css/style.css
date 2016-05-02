@@ -142,6 +142,8 @@ a {
 .navbar-default .navbar-toggle {
   border: none;
   background: #32045c; }
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle visited {
+    background: #32045c; }
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff; }
