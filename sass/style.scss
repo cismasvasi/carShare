@@ -1,30 +1,22 @@
-// compileCompressed: ../css/style.min.css
+// compileCompressed: ..\css\$1.min.css
 /*Mixins*/
 @import 'modules/mixins';
-
 /*Variables*/
 @import 'modules/variables';
 
 /*Base styles*/
 @import 'partials/base';
-
 /*Back to top btn styles*/
 @import 'partials/top-btn';
-
 /*Nav styles*/
 @import 'partials/nav';
-
 /*Hero styles*/
 @import 'partials/hero';
-
 /*About styles*/
 @import 'partials/about';
-
 /*Appstore styles*/
 @import 'partials/appstore';
-
 /*Sign_up styles*/
 @import 'partials/sign_up';
-
 /*Footer styles*/
 @import 'partials/footer';
